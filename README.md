@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PPUK Data Platform Landing Zone
 
 Terraform infrastructure-as-code for the PPUK Tier 1 Data Platform landing zone described in the technical requirements PDF.
@@ -62,3 +63,6 @@ Confirm these before the first `terraform apply`:
 - Whether the Function App needs VNet integration (`enable_function_app_vnet_integration`). Requires a pre-provisioned `snet-function-app` subnet delegated to `Microsoft.Web/serverFarms`.
 - Sentinel / Log Analytics workspace target if centralised outside this subscription.
 - Exact Azure DevOps project and service connection names.
+=======
+# PPUK_Data_Platform_Standardization
+>>>>>>> d71ee58cb5e69daa6c0b9a7fcc921c49ee382ea2
